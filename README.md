@@ -3,10 +3,10 @@
 This project is a **Currency Exchange Dashboard** that allows users to analyze and compare exchange rates between two currencies. Users can visualize historical trends, calculate custom currency baskets, and assess volatility and risk levels for selected currency pairs.
 Team No.3
 Team Members:
-Devesh
-Diya
-Gaurav
-Harsh
+Devesh,
+Diya,
+Gaurav,
+Harsh,
 Krishna
 
 ## Features
