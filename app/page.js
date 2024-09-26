@@ -8,12 +8,16 @@ import HighLowIndicator from "../components/HighLowIndicator";
 import CustomBasketManager from "../components/CustomBasketManager";
 import RiskIndicator from "../components/RiskIndicator";
 import PuffLoader from "react-spinners/PuffLoader";
-import { Line } from "react-chartjs-2";
+import { Line } from 'react-chartjs-2';
+import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
+
+// Register Chart.js components
+ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
 export default function Home() {
   const [currency1, setCurrency1] = useState("USD");
   const [currency2, setCurrency2] = useState("EUR");
-  const [duration, setDuration] = useState("weekly");
+  const [duration, setDuration] = useState("monthly");
   const [chartData, setChartData] = useState(null);
   const [highLowData, setHighLowData] = useState({ high: 0, low: 0 });
   const [isLoading, setIsLoading] = useState(false);
@@ -47,8 +51,9 @@ export default function Home() {
             label: `${cur1} to ${cur2} Exchange Rate Trend`,
             data: chartData.exchange_rates,
             borderColor: 'rgba(75, 192, 192, 1)',
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-            fill: true,
+            backgroundColor: 'rgba(75, 192, 192, 0.2)', // Light shade under the line
+            fill: true, // Enable the shaded area below the line
+            tension: 0.1, // Optional: adds a curve to the line
           }
         ]
       };
@@ -125,12 +130,7 @@ export default function Home() {
 
             <div className="bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 p-6 rounded-lg shadow-lg transition transform hover:scale-105 duration-500 ease-in-out text-white">
               <HighLowIndicator
-                data={{
-                  high: highLowData.high,
-                  low: highLowData.low,
-                  highDate: highLowData.highDate,
-                  lowDate: highLowData.lowDate,
-                }}
+                data={highLowData}
               />
             </div>
 

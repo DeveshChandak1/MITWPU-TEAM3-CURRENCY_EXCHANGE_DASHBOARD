@@ -18,8 +18,9 @@ app = Flask(__name__)
 CORS(app)
 
 # Load currency data
-#data = pd.read_csv(r'merged_output.csv')
+# data = pd.read_csv(r'Exchange_Rate_Report_2022.csv')
 data = pd.read_csv(r'merged_output.csv')
+
 data.columns = data.columns.str.strip()
 data['Date'] = pd.to_datetime(data['Date'], format='%d-%b-%y', errors='coerce')
 data.dropna(subset=['Date'], inplace=True)
