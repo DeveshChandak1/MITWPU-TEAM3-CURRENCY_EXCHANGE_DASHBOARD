@@ -21,7 +21,7 @@ Krishna
    - in Weekly if we use merged file(2012-2022) it will not show because of huge date points but if we use a single year then it will show
    - **we can change the csv file app.py line 22**
    - **data = pd.read_csv(r'merged_output.csv')**
-   - Use the provided file because we have to change the column name in csv file . for ex: Indian Rupee (INR) to INR
+   - Use the provided file because we have to change the column name in csv file to for example: Indian Rupee (INR) to INR
 
 2. **Highest and Lowest Exchange Rates**
    - Displays the **highest** and **lowest** exchange rates for the selected currency pair during the chosen time period.
