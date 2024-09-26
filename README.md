@@ -18,6 +18,10 @@ Krishna
      - **Quarterly**
      - **Yearly**
    - The exchange rate trend is displayed as a line graph, allowing users to see how rates have fluctuated over time.
+   - in Weekly if we use merged file(2012-2022) it will not show because of huge date points but if we use a single year then it will show
+  
+   - we can change the csv file app.py line 22
+   - data = pd.read_csv(r'merged_output.csv')
 
 2. **Highest and Lowest Exchange Rates**
    - Displays the **highest** and **lowest** exchange rates for the selected currency pair during the chosen time period.
