@@ -42,25 +42,25 @@ Krishna
 ## Screenshots
 
 ### Currency Selection Interface
-![Screenshot 2024-09-26 093127](https://github.com/user-attachments/assets/762b5c79-2f11-4ed3-9b95-f7341d11fa65)
+![Screenshot 2024-09-26 093127](https://github.com/user-attachments/assets/a57cd8df-71f2-4498-95ad-e53dbec7e009)
 
 
 
 ### Exchange Rate Trend Graph
-![Screenshot 2024-09-26 093152](https://github.com/user-attachments/assets/98997934-2bab-48ad-bed5-9d07c1bd364c)
+![Screenshot 2024-09-26 093152](https://github.com/user-attachments/assets/34dd2419-0d2e-445f-92a2-f69eba8f987d)
 
 
 ### Highest and Lowest Rates
-![Screenshot 2024-09-26 093159](https://github.com/user-attachments/assets/d5a0f7fa-6b5b-4915-b89e-3174509efeb1)
+![Screenshot 2024-09-26 093159](https://github.com/user-attachments/assets/9c93f2fa-9292-461a-b97b-6c7dab2c0900)
 
 
 ### Custom Currency Basket
-![Screenshot 2024-09-26 093336](https://github.com/user-attachments/assets/e046e358-a087-4bec-8282-6f80f8d79714)
+![Screenshot 2024-09-26 093336](https://github.com/user-attachments/assets/f07aba6d-23d7-4cb7-bd9b-02770714ed80)
 
 
 
 ### Risk Indicator and Volatility
-![Screenshot 2024-09-26 093344](https://github.com/user-attachments/assets/c717c68d-85eb-4dbf-8a56-a8282136b185)
+![Screenshot 2024-09-26 093344](https://github.com/user-attachments/assets/15283f5e-0552-4f1f-8298-9f0feb97a49a)
 
 
 ## Future Enhancements
