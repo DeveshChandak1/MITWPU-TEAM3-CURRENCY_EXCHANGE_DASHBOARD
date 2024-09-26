@@ -51,7 +51,7 @@ Krishna
 
 
 ### Exchange Rate Trend Graph
-![Screenshot 2024-09-26 093152](https://github.com/user-attachments/assets/34dd2419-0d2e-445f-92a2-f69eba8f987d)
+![Screenshot 2024-09-26 110040](https://github.com/user-attachments/assets/c7356f59-796c-46ef-882a-f151414700f4)
 
 
 ### Highest and Lowest Rates
